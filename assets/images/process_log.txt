@@ -1,0 +1,26 @@
+-Log généré le : 2025-09-10 14:16:53
+-Taille dossier source : 29,47 Mo (30904886 octets)
+-Taille dossier traité : 0,78 Mo (818516 octets)
+-Durée des opérations : 26s
+-Opérations :
+    |__"images":
+    |     "camera.jpg" -> "png->jpg resize=800x800"
+    |     "nina.jpg" -> "png->jpg resize=800x800"
+    |__ "gallery":
+    |  |__ "concerts":
+    |  |       "aaron-paul-wnX-fXzB6Cw-unsplash.jpg" -> "resize=800x800"
+    |  |       "austin-neill-hgO1wFPXl3I-unsplash.jpg" -> "resize=800x800"
+    |  |__ "entreprise":
+    |  |       "ali-morshedlou-WMD64tMfc4k-unsplash.jpg" -> "resize=800x800"
+    |  |       "jason-goodman-tHO1_OuKbg0-unsplash.jpg" -> "resize=800x800"
+    |  |       "mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" -> "resize=800x800"
+    |  |__ "mariage":
+    |  |       "hannah-busing-RvF2R_qMpRk-unsplash.jpg" -> "resize=800x800"
+    |  |       "jakob-owens-SiniLJkXhMc-unsplash.jpg" -> "resize=800x800"
+    |  |__ "portraits":
+    |  |       "ade-tunji-rVkhWWZFAtQ-unsplash.jpg" -> "resize=800x800"
+    |  |       "nino-van-prattenburg--443cl1uR_8-unsplash.jpg" -> "resize=800x800"
+    |__ "slider":
+    |       "edward-cisneros-3_h6-1NPDGw-unsplash.jpg" -> "resize=800x800"
+    |       "nicholas-green-nPz8akkUmDI-unsplash.jpg" -> "resize=800x800"
+    |       "ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" -> "resize=800x800"
