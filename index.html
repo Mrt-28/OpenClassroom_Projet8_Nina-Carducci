@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci - Photographe</title>
 	<link rel="icon" type="image/png" href="./assets/images/favicon.png"/>	
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.minimal.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
 	<script src="./assets/scripts.js"></script>
 </head>
 <body>
-<div class="top-header">
+<nav class="top-header">
 	<h3 class="name">Nina Carducci</h3>
 	<div class="nav">   
 		<ul>
@@ -30,8 +30,8 @@
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Lien vers le instagram de Nina Carducci"><img src="assets/images/instagram.png" alt="instagram logo"></a></li>
 		</ul>
 	</div>
-</div>
-<div id="header">
+</nav>
+<header id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
@@ -59,7 +59,7 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-</div>
+</header>
 <div id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.jpg" alt="photo de nina carducci">
@@ -157,6 +157,20 @@
 		<div class="picture right">
 			<img src="./assets/images/camera.jpg" alt="Apareil photo image">
 		</div>
+	</div>
+	<div itemscope itemtype="https://schema.org/LocalBusiness" class="visually-hidden">
+		<span itemprop="name">Nina Carducci</span>
+		<meta itemprop="additionalType" content="https://schema.org/Photographer" />
+		<span itemprop="description">Photographe spécialisée en portraits et événementiel</span>
+
+		<span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+			<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
+			<span itemprop="postalCode">33200</span>
+			<span itemprop="addressLocality">Bordeaux</span>
+		</span>
+
+		<span itemprop="telephone">05 56 67 78 89</span>
+		<span itemprop="openingHours">Mo-Fr 10:00-19:00</span>
 	</div>
 </div>
 </body>
