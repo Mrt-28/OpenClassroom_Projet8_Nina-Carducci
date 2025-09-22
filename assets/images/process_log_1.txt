@@ -1,0 +1,27 @@
+-Log généré le : 2025-09-22 02:46:01
+-Taille dossier source : 0,78 Mo (819862 octets)
+-Taille dossier traité : 0,40 Mo (424036 octets)
+-Durée des opérations : 1s
+-Opérations :
+    |__"images":
+    |     "camera.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |     "instagram.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |     "nina.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |__ "gallery":
+    |  |__ "concerts":
+    |  |       "aaron-paul-wnX-fXzB6Cw-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |  |       "austin-neill-hgO1wFPXl3I-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |  |__ "entreprise":
+    |  |       "ali-morshedlou-WMD64tMfc4k-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |  |       "jason-goodman-tHO1_OuKbg0-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |  |       "mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |  |__ "mariage":
+    |  |       "hannah-busing-RvF2R_qMpRk-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |  |       "jakob-owens-SiniLJkXhMc-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |  |__ "portraits":
+    |  |       "ade-tunji-rVkhWWZFAtQ-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |  |       "nino-van-prattenburg--443cl1uR_8-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |__ "slider":
+    |       "edward-cisneros-3_h6-1NPDGw-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |       "nicholas-green-nPz8akkUmDI-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
+    |       "ryoji-iwata-wUZjnOv7t0g-unsplash.webp" -> "to-webp resize=800x800 quality=75 strip"
