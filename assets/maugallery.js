@@ -198,7 +198,7 @@
     createLightBox(gallery, lightboxId, navigation) {
       gallery.append(`<div class="modal fade" id="${
         lightboxId ? lightboxId : "galleryLightbox"
-      }" tabindex="-1" role="dialog">
+      }" tabindex="-1" role="dialog" >
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
@@ -217,18 +217,6 @@
                     </div>
                 </div>
             </div>`);
-      // Ajout des listeners pour inert (version corrigée)
-      const modalId = `#${lightboxId ? lightboxId : "galleryLightbox"}`;
-      $(document).on('show.bs.modal', modalId, function () {
-        // Appliquer inert uniquement sur les sections principales hors modale
-        $("nav, header, #about, #gallery, #services, #contact").attr("inert", "");
-        $(modalId).removeAttr("aria-hidden");
-      });
-      $(document).on('hidden.bs.modal', modalId, function () {
-        // Retirer inert
-        $("nav, header, #about, #gallery, #services, #contact").removeAttr("inert");
-        $(modalId).attr("aria-hidden", "true");
-      });
     },
     showItemTags(gallery, position, tags) {
       var tagItems =
