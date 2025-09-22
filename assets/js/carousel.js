@@ -25,7 +25,9 @@ async function addActiveClass(){
     tabImg[nextImg].style.transform = "translateX(100%)"
     tabImg[indexImg].offsetHeight // trigger reflow for translateX(0%)
     tabImg[indexImg].style.transform = "translateX(0%)"
+    tabImg[indexImg].style.opacity = "1"
     tabImg[prevImg].style.transform = "translateX(-100%)"
+    tabImg[prevImg].style.opacity = "0"
 
   await new Promise(resolve => {
     setTimeout(() => {
@@ -64,7 +66,7 @@ indicators[0].addEventListener("click", function(e) {
             indicator.classList.remove("active")
             indicator.setAttribute("aria-current", "false")
         })
-        
+
         e.target.classList.add("active")
         e.target.setAttribute("aria-current", "true")
 
