@@ -217,16 +217,16 @@
                     </div>
                 </div>
             </div>`);
-      // Ajout des listeners pour inert
+      // Ajout des listeners pour inert (version corrigée)
       const modalId = `#${lightboxId ? lightboxId : "galleryLightbox"}`;
       $(document).on('show.bs.modal', modalId, function () {
-        // Mettre inert sur le contenu principal
-        $("body > :not(" + modalId + ")").attr("inert", "");
+        // Appliquer inert uniquement sur les sections principales hors modale
+        $("nav, header, #about, #gallery, #services, #contact").attr("inert", "");
         $(modalId).removeAttr("aria-hidden");
       });
       $(document).on('hidden.bs.modal', modalId, function () {
-        // Retirer inert du contenu principal
-        $("body > :not(" + modalId + ")").removeAttr("inert");
+        // Retirer inert
+        $("nav, header, #about, #gallery, #services, #contact").removeAttr("inert");
         $(modalId).attr("aria-hidden", "true");
       });
     },
