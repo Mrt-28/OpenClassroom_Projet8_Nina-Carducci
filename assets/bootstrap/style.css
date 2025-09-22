@@ -2002,11 +2002,6 @@ progress {
   width: 100%;
   overflow: hidden;
 }
-.carousel-inner::after {
-  display: block;
-  clear: both;
-  content: "";
-}
 
 .carousel-item {
   position: relative;
